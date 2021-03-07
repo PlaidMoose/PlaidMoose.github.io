@@ -91,7 +91,7 @@ body{
     border-bottom: 10px solid #333;
     color: white;
     width: 100%;
-    position: absolute;
+    position: static;
     bottom: 0%;
     z-index: 5;
     padding-bottom: 2rem;
@@ -160,5 +160,7 @@ body{
       color: white;
   }
 
-
+.content {
+    overflow: sticky;
+}
   
